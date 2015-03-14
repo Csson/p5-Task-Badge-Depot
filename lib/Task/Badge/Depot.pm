@@ -1,13 +1,10 @@
-use 5.10.1;
 use strict;
 use warnings;
 
 package Task::Badge::Depot;
 
 # VERSION
-# ABSTRACT: Short intro
-
-
+# ABSTRACT: All Badge::Depot badges
 
 1;
 
@@ -16,14 +13,14 @@ __END__
 
 =pod
 
-=head1 SYNOPSIS
+=pkgroup Badge::Depot, with badges
 
-    use Task::Badge::Depot;
+=pkg Badge::Depot
 
-=head1 DESCRIPTION
+=pkg Badge::Depot::Plugin::Gratipay
 
-Task::Badge::Depot is ...
+=pkg Badge::Depot::Plugin::Perl
 
-=head1 SEE ALSO
+=pkg Badge::Depot::Plugin::Travis
 
 =cut
