@@ -98,7 +98,7 @@
             "Badge::Depot::Plugin::Gratipay" : "0",
             "Badge::Depot::Plugin::Perl" : "0",
             "Badge::Depot::Plugin::Travis" : "0",
-            "perl" : "v5.10.1"
+            "perl" : "5.010001"
          }
       },
       "test" : {

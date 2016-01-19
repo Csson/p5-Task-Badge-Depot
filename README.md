@@ -2,6 +2,8 @@
 
 Task::Badge::Depot - All Badge::Depot badges
 
+![Requires Perl 5.10.1+](https://img.shields.io/badge/perl-5.10.1+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Task-Badge-Depot.svg?branch=master)](https://travis-ci.org/Csson/p5-Task-Badge-Depot) 
+
 # VERSION
 
 Version 0.0200, released 2016-01-19.
