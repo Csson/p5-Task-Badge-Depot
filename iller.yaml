@@ -4,6 +4,16 @@ doctype: dist
 header:
   name: Task-Badge-Depot
 
+prereqs:
+  runtime:
+    requires:
+      - perl: 5.10.1
+
 plugins:
   - +config: Author::CSSON
     is_task: 1
+---
+doctype: weaver
+
+plugins:
+  - +config: Author::CSSON
