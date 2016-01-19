@@ -115,7 +115,7 @@
    "provides" : {
       "Task::Badge::Depot" : {
          "file" : "lib/Task/Badge/Depot.pm",
-         "version" : "0.0200"
+         "version" : "0.0101"
       }
    },
    "release_status" : "stable",
@@ -130,6 +130,6 @@
          "web" : "https://github.com/Csson/p5-Task-Badge-Depot"
       }
    },
-   "version" : "0.0200"
+   "version" : "0.0101"
 }
 

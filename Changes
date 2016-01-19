@@ -8,17 +8,19 @@ Revision history for Task-Badge-Depot
  [Documentation]
 
  [Enhancements]
-  - Added coverage badge.
-
- [Meta]
 
  [New Features]
 
- [Requirements]
+ [Other Changes]
 
- [Other changes]
+ [Requirements]
 
  [Testing]
 
+0.0101 2016-01-19T20:26:11Z UTC
+ [Enhancements]
+ - Added coverage badge.
+
 0.0100 2015-03-14T23:18:06Z CET
  - Initial release
+

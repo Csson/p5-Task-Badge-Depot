@@ -6,7 +6,7 @@ Task::Badge::Depot - All Badge::Depot badges
 
 # VERSION
 
-Version 0.0200, released 2016-01-19.
+Version 0.0101, released 2016-01-19.
 
 # TASK CONTENTS
 
