@@ -17,6 +17,8 @@ __END__
 
 =pkg Badge::Depot
 
+=pkg Badge::Depot::Plugin::Coverage
+
 =pkg Badge::Depot::Plugin::Gratipay
 
 =pkg Badge::Depot::Plugin::Perl
