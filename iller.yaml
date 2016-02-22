@@ -7,7 +7,7 @@ header:
 prereqs:
   runtime:
     requires:
-      - perl: 5.010001
+      - perl: 5.010000
 
 plugins:
   - +config: Author::CSSON
@@ -17,3 +17,12 @@ doctype: weaver
 
 plugins:
   - +config: Author::CSSON
+
+---
+doctype: cpanfile
+
+---
+doctype: gitignore
+config: Author::CSSON
+always:
+ - /Task-Badge-Depot-*
