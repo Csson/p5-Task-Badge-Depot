@@ -3,8 +3,9 @@ use warnings;
 
 package Task::Badge::Depot;
 
-# VERSION
 # ABSTRACT: All Badge::Depot badges
+# AUTHORITY
+our $VERSION = '0.0102';
 
 1;
 
@@ -15,14 +16,18 @@ __END__
 
 =pkgroup Badge::Depot, with badges
 
-=pkg Badge::Depot
+=pkg Badge::Depot 0.0104
 
-=pkg Badge::Depot::Plugin::Coverage
+=pkg Badge::Depot::Plugin::Coverage 0.0101
 
-=pkg Badge::Depot::Plugin::Gratipay
+=pkg Badge::Depot::Plugin::Cpantesters 0.0101
 
-=pkg Badge::Depot::Plugin::Perl
+=pkg Badge::Depot::Plugin::Gratipay 0.0102
 
-=pkg Badge::Depot::Plugin::Travis
+=pkg Badge::Depot::Plugin::Kwalitee 0.0101
+
+=pkg Badge::Depot::Plugin::Perl 0.0103
+
+=pkg Badge::Depot::Plugin::Travis 0.0202
 
 =cut
