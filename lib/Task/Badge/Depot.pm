@@ -5,7 +5,7 @@ package Task::Badge::Depot;
 
 # ABSTRACT: All Badge::Depot badges
 # AUTHORITY
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 1;
 
