@@ -11,7 +11,9 @@ Revision history for Task-Badge-Depot
 
  [New Features]
 
- [Other Changes]
+ [Badge Changes]
+  - Add ::Cpantesters and ::Kwalitee badges.
+  - Require latest versions on everything.
 
  [Requirements]
 

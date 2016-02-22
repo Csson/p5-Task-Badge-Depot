@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use 5.010001;
+use 5.010000;
 
 use ExtUtils::MakeMaker;
 
@@ -14,21 +14,25 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "Task-Badge-Depot",
   "LICENSE" => "perl",
-  "MIN_PERL_VERSION" => "5.010001",
+  "MIN_PERL_VERSION" => "5.010000",
   "NAME" => "Task::Badge::Depot",
   "PREREQ_PM" => {
-    "Badge::Depot" => 0,
-    "Badge::Depot::Plugin::Coverage" => 0,
-    "Badge::Depot::Plugin::Gratipay" => 0,
-    "Badge::Depot::Plugin::Perl" => 0,
-    "Badge::Depot::Plugin::Travis" => 0
+    "Badge::Depot" => "0.0104",
+    "Badge::Depot::Plugin::Coverage" => "0.0101",
+    "Badge::Depot::Plugin::Cpantesters" => "0.0101",
+    "Badge::Depot::Plugin::Gratipay" => "0.0102",
+    "Badge::Depot::Plugin::Kwalitee" => "0.0101",
+    "Badge::Depot::Plugin::Perl" => "0.0103",
+    "Badge::Depot::Plugin::Travis" => "0.0202"
   },
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
+    "IO::Handle" => 0,
+    "IPC::Open3" => 0,
     "Test::More" => "0.96"
   },
-  "VERSION" => "0.0101",
+  "VERSION" => "0.0102",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -36,13 +40,17 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Badge::Depot" => 0,
-  "Badge::Depot::Plugin::Coverage" => 0,
-  "Badge::Depot::Plugin::Gratipay" => 0,
-  "Badge::Depot::Plugin::Perl" => 0,
-  "Badge::Depot::Plugin::Travis" => 0,
+  "Badge::Depot" => "0.0104",
+  "Badge::Depot::Plugin::Coverage" => "0.0101",
+  "Badge::Depot::Plugin::Cpantesters" => "0.0101",
+  "Badge::Depot::Plugin::Gratipay" => "0.0102",
+  "Badge::Depot::Plugin::Kwalitee" => "0.0101",
+  "Badge::Depot::Plugin::Perl" => "0.0103",
+  "Badge::Depot::Plugin::Travis" => "0.0202",
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
+  "IO::Handle" => 0,
+  "IPC::Open3" => 0,
   "Test::More" => "0.96"
 );
 
